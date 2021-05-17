@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloudsbackground"
+    android:padding="16dp"
+    android:id="@+id/layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchCity"
+            android:layout_marginBottom="300dp"
+            android:hint="Enter City Name"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:background="#F4F6F7"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="#A93226"
+            android:backgroundTint="@null"
+            android:onClick="getWeatherDetails"
+            android:text="Get Weather"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textSize="18dp"/>
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_marginTop="20dp">-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:layout_marginTop="150dp"
+                android:id="@+id/tvResult"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+<!--        </ScrollView>-->
+
+
+    </RelativeLayout>
+
+</LinearLayout>

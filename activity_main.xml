@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/backgoundimage"
+        android:src="@drawable/cloudy"
+        android:paddingTop="120dp"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Welcome To"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="45sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather"
+        android:text="Weather App !"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="45sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/newcityweather"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="560dp"
+        android:text="GET WEATHER OF DIFFERENT CITY"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:id="@+id/currentweather"
+        android:layout_marginTop="490dp"
+        android:text="GET CURRENT WEATHER"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"/>
+
+
+
+</RelativeLayout>
